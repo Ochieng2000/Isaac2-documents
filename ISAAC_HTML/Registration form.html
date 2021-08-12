@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <style>
+        .b{
+            color: red;
+        }
+        .y{
+            background-color:rgb(184, 167, 21);
+            font-size: xx-large;
+            text-align: center;
+        }
+        .m{
+            text-align: center
+        }
+        .c{
+            color: blue;
+        }
+        form{
+            width: 600px;
+            margin:auto;
+            padding: 40px;
+            background-color: blue;
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body  class="y">
+    <b><i class="v">Kindly fill the form below.</i></b>
+    <form action="">
+        <div>
+            <label for="fname">First Name</label>
+             <input type="text" name="First Name" placeholder="First Name" id="fname">
+        </div>
+        <div>
+            <div>
+                <label for="mname">Middle Name</label>
+                <input type="text" name="Middle Name" placeholder="Middle Name" id="mname">
+            </div>
+            <div>
+                <label for="lname">Last Name</label>
+                <input type="text" name="Last Name" placeholder="Last Name" id="lname">
+            </div>
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" name="Email" placeholder="Enter Email" id="Email" required>
+            </div>
+            <div>
+                <label for="pass">Password</label>
+                <input type="password" name="Password" placeholder="Enter Password" id="pass">
+            </div>
+            <div>
+                <label for="phone">Mobile Number</label>
+                <select name="" id="">
+                    <option value="">+254</option>
+                    <option value="">+256</option>
+                    <option value="">+257</option>
+                    <option value="">+259</option>
+                </select>
+                <input type="tel" name="Mobile Number" placeholder="Mobile Number" id="phone">
+            </div>
+            <div>
+                <label for="gender" >Male</label >
+                <input type="radio" name="Gender"  id="gender">
+                <label for="gender1">Female</label>
+                <input type="radio" name="Gender"  id="gender1">
+            </div>
+            <div>
+                <label for="age">Your Age</label>
+                <input type="number" name="Your Age" placeholder="Age" max="30" min="18" id="age">
+            </div>
+            <div>
+                <label for="date">Date of Birth</label>
+                <input type="date" name="Date of Birth" placeholder="Date of Birth" id="date">
+            </div>
+        </div>
+        <b><i>Added information </i></b>
+        <div>
+        <textarea name="Additional information" id="" cols="30" rows="10"></textarea>
+        </div>
+        <b><i>Select your favourite games.</i></b>
+        <div>
+           <select name="places" id="">
+               <option value="">Handball</option>
+               <option value="">Football</option>
+               <option value="">Hocky</option>
+               <option value="">Netball</option>
+               <option value="">Basketball</option>
+               <option value="">Rugby</option>
+           </select>
+        </div>
+        <div>
+            <b><i>Areas visited</i></b>
+        </div>
+        <div>
+            <label for="na">Nairobi</label>
+            <input type="checkbox" name="Nairobi" id="na">
+            <label for="Ki">Kitui</label>
+            <input type="checkbox" name="Kitui" id="Ki">
+            <label for="nai">Naivasha</label>
+            <input type="checkbox" name="Naivasha" id="nai">
+            <label for="nak">Nakuru</label>
+            <input type="checkbox" name="Nakuru" id="nak">
+            <label for="mo">Mombasa</label>
+            <input type="checkbox" name="Mombasa" id="mo">
+                    
+        </div>
+        <div>
+            Attach your kcse certificate
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="file" name="File" id="file">
+        </div>
+        <div>
+            <label for="color">Your favourite color</label>
+            <input type="color" name="Your favourite color" id="colors">
+        </div>
+        <div>
+            <label for="search">Search</label>
+            <input type="search" name="Search" id="search">
+            <label for="range">Range</label>
+            <input type="range" name="Range" id="range">
+        </div>
+            <button type="submit" class="b"><b><i>DONE</i></b></button>
+            <button type="reset" class="c"><b><i>REFRESH</i></b></button>
+      
+      
+
+    </form>
+    <div>
+        <a href="/Background_information.html">MY BIOGRAPHY</a>
+    </div>
+    <div><a href="/Home page.html">Back</a></div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS.css">
+    <title>ISAAC</title>
+    <style>
+        .k{
+            font-style: italic;
+            color: red;
+        }
+        .rt{
+            color: royalblue;
+        }
+        .w{
+            font-style: italic;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+             
+        }
+        .f{
+            color: seagreen;
+        }
+        .section{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .section h1{
+            text-align: center;
+            font-size: 3rem;
+            background: white;
+            padding: 20px;
+            margin: 15px;
+            z-index: 1;
+        }
+        .vid{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <video class="vid" loop muted autoplay>
+            <source src="/Amzzing Drones.mp4">
+        </video>
+        <div class="section h1">
+            <h1>This is my first webpage </h1>
+            <p class="k">Thank you for logging into my webpage</p>
+            <h2>These are my contacts </h2>
+            <p class="rt">0796853507</p>
+            <p class="rt">0758515601</p>
+            <H1>MY VIDEOS</H1>
+            <video  autoplay muted loop height="200" width="300">
+                <source src="Christina_Perri_-_A_Thousand_Years_[Official_Music_Video](720p).mp4">
+            </video>
+            <div>
+                <audio controls src="/Delacey_Dream_It_Possible_Lyrics(128k).mp3"></audio>
+            </div>
+            <h3>My photos are</h3>
+            <img src="/Images/2020-range-rover-evoque-0-768x416.jpg" alt="rangerover">
+            <div>
+                <p class="w">I love HTML & CSS</p>
+            </div>
+            <div>
+                <a class="f" href="/Index2.html">About Me</a>
+            </div>
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>

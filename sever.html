@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>results</title>
+</head>
+<body>
+    <div id="results"></div>
+    <a href="/forms2.html">BACK TO FORM</a>
+    <script>
+        const resultsSlip = document.getElementById('results')
+        let data = new URLSearchParams(window.location.search)
+        data.forEach((value, key)=>{let target = document.createElement("p")
+        target.innerHTML = key+": "+value
+        resultsSlip.append(target)})
+
+    </script>
+    
+</body>
+</html>

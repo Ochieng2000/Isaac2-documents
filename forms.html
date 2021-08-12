@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+        * {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="" method="">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <div>
+            <label for="number">ID number</label>
+            <input type="number" name="ID Number" id="number">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email">
+        </div>
+        <div>
+            <b>Gender</b>
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="male" value="Male">
+            <label for="female">Female</label>
+            <input type="radio" name="Gender" id="female" value="Female">
+        </div>
+        <div>
+            <b>Favorite Food</b>
+            <div>
+                <div>
+                    <label for="githeri">Githeri</label>
+                    <input type="checkbox" name="Favorite Food" id="githeri" >
+                </div>
+                <div>
+                    <label for="rice">Rice</label>
+                    <input type="checkbox" name="Favorite Food" id="rice" >
+                </div>
+                <div>
+                    <label for="Chapoo">Chapati</label>
+                    <input type="checkbox" name="Favorite Food" id="Chapoo">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="Additional Infomation">Additional Infomation</label>
+            </div>
+            <textarea name="Additional Infomation" id="Additional Infomation" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <div>
+                <label for="games"><b>Games</b></label>
+            </div>
+            <select name="Games" id="games" multiple>
+                <option value="Football">Football</option>
+                <option value="Volleyball">Volleyball</option>
+                <option value="Netball" label="Netball"></option>
+                <option value="Swimming" label="Swimming"></option>
+            </select>
+        </div>
+        <div>
+            <label for="url">URL</label>
+            <input type="url" name="URL" id="url">
+        </div>
+        <div>
+            <label for="color">Favorite Colour</label>
+            <input type="color" name="Color" id="color">
+        </div>
+        <div>
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+        </div>
+
+    </form>
+    <a href="/forms2.html">BACK TO FORM</a>
+</body>
+</html>
